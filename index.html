@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container bg-warning text-center gameClass">
+
+        <div class="row  ">
+                    <div class="col-xs-12 col-centered">
+
+            <h1 class="text-primary gameTitle">Totally Trivial Dog Trivia!</h1>
+        </div>
+        <div class="row text-center gameBody">
+            <div>
+                <button id="start" class="btn btn-primary  btn-lg ">Let's Begin</button>
+            </div>
+            <div class="trivia">
+                <h3  class="text-danger" style="display:inline">Time Remaining:
+                    <span style="display:inline"  class="text-danger" id="timerHere">30</span> Seconds</h3>
+                <form class="q">
+                    <h4>1. How many dog breeds exist? </h4>
+                    <input name="1" type="radio" value="wrong" /> 1
+                    <input name="1" type="radio" value="wrong" /> 20
+                    <input name="1" type="radio" value="wrong" /> 59
+                    <input name="1" type="radio" value="wrong" /> 100
+                    <input name="1" type="radio" value="right" /> 150+
+                </form>
+                <form class="q">
+                    <h4>2. Where do dogs sweat? </h4>
+                    <input name="1" type="radio" value="wrong" /> Tail
+                    <input name="1" type="radio" value="wrong" /> Tongue
+                    <input name="1" type="radio" value="wrong" /> Skin
+                    <input name="1" type="radio" value="right" /> Feet Pads
+                    <input name="1" type="radio" value="wrong" /> They Do not Sweat
+                </form>
+                <form class="q">
+                    <h4>3. How many teeth do adult dogs have? </h4>
+                    <input name="1" type="radio" value="wrong" /> 20
+                    <input name="1" type="radio" value="wrong" /> 264
+                    <input name="1" type="radio" value="wrong" /> 141
+                    <input name="1" type="radio" value="right" /> 42
+                    <input name="1" type="radio" value="wrong" /> 57
+                </form>
+                <form class="q">
+                    <h4>4. Which breed of dog has a black tongue</h4>
+                    <input name="1" type="radio" value="right" /> Shar-pei 
+                    <input name="1" type="radio" value="wrong" /> German Shepherd
+                    <input name="1" type="radio" value="wrong" /> Beagle
+                    <input name="1" type="radio" value="wrong" /> Doberman Pinscher
+                    <input name="1" type="radio" value="wrong" /> Basenji
+                </form>
+                <form class="q">
+                    <h4>5. Which breed of dog has a water resistant coat and webbed feet </h4>
+                    <input name="1" type="radio" value="wrong" /> American Water Spaniel
+                    <input name="1" type="radio" value="wrong" /> Akita
+                    <input name="1" type="radio" value="wrong" /> Australian Shepherd 
+                    <input name="1" type="radio" value="right" /> Newfoundland
+                    <input name="1" type="radio" value="wrong" /> Belgian Malinois
+                </form>
+                <button id="submit" class="btn btn-success">Submit Answers</button>
+            </div>
+            <div class="score">
+                <h1 class="text-danger">GAME OVER.</h1>
+                <p class=" correct"></p>
+                <p class="wrong"></p>
+                <p class="unanswered"></p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+
+</html>

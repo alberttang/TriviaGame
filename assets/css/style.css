@@ -1,0 +1,29 @@
+
+
+.gameBody{
+    padding: 20px;
+}
+
+.gameTitle{
+
+        padding: 30px;
+
+
+
+}
+
+.container{
+    margin-top:50px;
+}
+
+form{
+
+    padding: 20px;
+}
+
+body{
+    background-image: url("../images/dogs.png");
+        background-size: 200px ;
+        background-repeat: repeat;
+
+}
